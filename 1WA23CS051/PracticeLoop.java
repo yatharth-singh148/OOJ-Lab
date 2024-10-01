@@ -10,7 +10,7 @@ public class PracticeLoop
 		{
 			System.out.println(i);
 		}
-		System.out.println("While loop:")
+		System.out.println("While loop:");
 		i=0;
 		while(i<11)
 		{
