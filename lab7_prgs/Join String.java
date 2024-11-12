@@ -9,7 +9,7 @@ int ch;
 String hi="Hi, ";
 String mom="mom.";
 String a;
-System.out.println("Which method? 1 -> Without built in function\n2 -> With .concat()");
+System.out.println("Which method?\n1 -> Without built in function\n2 -> With .concat()");
 ch=sc.nextInt();
 switch(ch)
 {
