@@ -1,3 +1,4 @@
+//q1 lab 7
 import java.util.*;
 public class CharArray
 {
