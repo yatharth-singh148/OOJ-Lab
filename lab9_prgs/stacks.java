@@ -6,7 +6,7 @@ public interface Stack
     int pop();
     boolean isEmpty();
     boolean isFull();
-    int peek();
+    int display();
 }
 
 public class FixedStack implements Stack 
