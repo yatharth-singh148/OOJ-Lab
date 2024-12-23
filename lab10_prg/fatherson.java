@@ -14,10 +14,10 @@ class Father {
 
 class Son extends Father {
     public Son(int sage, int age) {
-        super(age);  // Calling the Father class constructor with the age of father
+        super(age);
 
         try {
-            if (sage < 0 || sage < age)  // Ensure the son's age is positive and greater than or equal to father's age
+            if (sage < 0 || sage >= age)
                 throw new Exception("Invalid age of son");
             System.out.println("Age of Son entered: " + sage + "\t Age of Father: " + age);
         } catch (Exception e) {
@@ -32,13 +32,8 @@ public class Exceptions {
         System.out.println("Enter age of father and then son: ");
         int fage = sc.nextInt();
         int sage = sc.nextInt();
-        
-        // Create Father object
         Father f = new Father(fage);
-        
-        // Create Son object
         Son s = new Son(sage, fage);
-        
-        sc.close();  // Don't forget to close the scanner
+        sc.close();
     }
 }
