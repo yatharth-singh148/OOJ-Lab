@@ -26,3 +26,6 @@ class AEvent extends Frame implements ActionListener{
         new AEvent();  
     }  
 } 
+
+//DESCRIPTION
+/* This java program listens for the button click event. When the button is clicked by the mouse, the text in the text box becomes "Welcome". */
